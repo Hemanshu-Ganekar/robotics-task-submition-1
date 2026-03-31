@@ -56,6 +56,7 @@ void display(union binary a){
 void setABit(union binary* a,int n){
     int temp = 1;
     while(n--)temp = temp<<1;
+
     (a->num) = (a->num) | temp;
 }
 
