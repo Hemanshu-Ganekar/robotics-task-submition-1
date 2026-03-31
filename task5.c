@@ -35,8 +35,6 @@ union binary{
         unsigned int b29 : 1;
         unsigned int b30 : 1;
         unsigned int b31 : 1;
-        unsigned int b32 : 1;
-
     } bits;
 };
 
